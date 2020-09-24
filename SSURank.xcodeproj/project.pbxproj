@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		404FE4A9C54C5662F61762C9 /* Pods_SSURank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7D8222CD50BE2B9FD4FBB6 /* Pods_SSURank.framework */; };
 		B0B6D412251C3FE6008162C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B6D411251C3FE6008162C4 /* AppDelegate.swift */; };
-		B0B6D414251C3FE6008162C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B6D413251C3FE6008162C4 /* SceneDelegate.swift */; };
 		B0B6D416251C3FE6008162C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B6D415251C3FE6008162C4 /* ViewController.swift */; };
 		B0B6D419251C3FE6008162C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B6D417251C3FE6008162C4 /* Main.storyboard */; };
 		B0B6D41C251C3FE6008162C4 /* SSURank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0B6D41A251C3FE6008162C4 /* SSURank.xcdatamodeld */; };
@@ -17,15 +17,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B7D8222CD50BE2B9FD4FBB6 /* Pods_SSURank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSURank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B6D40E251C3FE6008162C4 /* SSURank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSURank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B6D411251C3FE6008162C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0B6D413251C3FE6008162C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B0B6D415251C3FE6008162C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B0B6D418251C3FE6008162C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0B6D41B251C3FE6008162C4 /* SSURank.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SSURank.xcdatamodel; sourceTree = "<group>"; };
 		B0B6D41D251C3FEA008162C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0B6D420251C3FEA008162C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0B6D422251C3FEA008162C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3AE43A6B5A049757B600294 /* Pods-SSURank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSURank.release.xcconfig"; path = "Target Support Files/Pods-SSURank/Pods-SSURank.release.xcconfig"; sourceTree = "<group>"; };
+		E9D3D0450EAA762D11983771 /* Pods-SSURank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSURank.debug.xcconfig"; path = "Target Support Files/Pods-SSURank/Pods-SSURank.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				404FE4A9C54C5662F61762C9 /* Pods_SSURank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,8 @@
 			children = (
 				B0B6D410251C3FE6008162C4 /* SSURank */,
 				B0B6D40F251C3FE6008162C4 /* Products */,
+				D4A81FF8D98B12DCC5EC762B /* Pods */,
+				F93B30CD27F9422E3243AAE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				B0B6D411251C3FE6008162C4 /* AppDelegate.swift */,
-				B0B6D413251C3FE6008162C4 /* SceneDelegate.swift */,
 				B0B6D415251C3FE6008162C4 /* ViewController.swift */,
 				B0B6D417251C3FE6008162C4 /* Main.storyboard */,
 				B0B6D41D251C3FEA008162C4 /* Assets.xcassets */,
@@ -70,6 +74,24 @@
 			path = SSURank;
 			sourceTree = "<group>";
 		};
+		D4A81FF8D98B12DCC5EC762B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3D0450EAA762D11983771 /* Pods-SSURank.debug.xcconfig */,
+				D3AE43A6B5A049757B600294 /* Pods-SSURank.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F93B30CD27F9422E3243AAE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B7D8222CD50BE2B9FD4FBB6 /* Pods_SSURank.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0B6D425251C3FEA008162C4 /* Build configuration list for PBXNativeTarget "SSURank" */;
 			buildPhases = (
+				E2CD33563F95A410F96438C7 /* [CP] Check Pods Manifest.lock */,
 				B0B6D40A251C3FE6008162C4 /* Sources */,
 				B0B6D40B251C3FE6008162C4 /* Frameworks */,
 				B0B6D40C251C3FE6008162C4 /* Resources */,
+				74D57C9A2BF0B2EF01AB261B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +159,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		74D57C9A2BF0B2EF01AB261B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SSURank/Pods-SSURank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SSURank/Pods-SSURank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SSURank/Pods-SSURank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2CD33563F95A410F96438C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSURank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B0B6D40A251C3FE6008162C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -142,7 +208,6 @@
 			files = (
 				B0B6D416251C3FE6008162C4 /* ViewController.swift in Sources */,
 				B0B6D412251C3FE6008162C4 /* AppDelegate.swift in Sources */,
-				B0B6D414251C3FE6008162C4 /* SceneDelegate.swift in Sources */,
 				B0B6D41C251C3FE6008162C4 /* SSURank.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,12 +352,14 @@
 		};
 		B0B6D426251C3FEA008162C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D3D0450EAA762D11983771 /* Pods-SSURank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M79H9K226Y;
 				INFOPLIST_FILE = SSURank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,12 +373,14 @@
 		};
 		B0B6D427251C3FEA008162C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3AE43A6B5A049757B600294 /* Pods-SSURank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M79H9K226Y;
 				INFOPLIST_FILE = SSURank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

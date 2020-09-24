@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.2.2)
+  - Kanna (5.2.2)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kanna
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kanna
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  Kanna: 2c4eddaaa4bfb9a1ed19e53c0b3d42ef02838046
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 26fc16691305538174f94e11c061bd64fc20404d
+
+COCOAPODS: 1.9.3
