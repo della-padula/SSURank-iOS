@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		B0B6D41C251C3FE6008162C4 /* SSURank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0B6D41A251C3FE6008162C4 /* SSURank.xcdatamodeld */; };
 		B0B6D41E251C3FEA008162C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0B6D41D251C3FEA008162C4 /* Assets.xcassets */; };
 		B0B6D421251C3FEA008162C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B6D41F251C3FEA008162C4 /* LaunchScreen.storyboard */; };
+		B0B6D516251C5C19008162C4 /* ListFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B6D515251C5C19008162C4 /* ListFetcher.swift */; };
+		B0B6D519251C5D8C008162C4 /* ListFetchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B6D518251C5D8C008162C4 /* ListFetchModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B0B6D41D251C3FEA008162C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0B6D420251C3FEA008162C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0B6D422251C3FEA008162C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B6D515251C5C19008162C4 /* ListFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFetcher.swift; sourceTree = "<group>"; };
+		B0B6D518251C5D8C008162C4 /* ListFetchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFetchModel.swift; sourceTree = "<group>"; };
 		D3AE43A6B5A049757B600294 /* Pods-SSURank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSURank.release.xcconfig"; path = "Target Support Files/Pods-SSURank/Pods-SSURank.release.xcconfig"; sourceTree = "<group>"; };
 		E9D3D0450EAA762D11983771 /* Pods-SSURank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSURank.debug.xcconfig"; path = "Target Support Files/Pods-SSURank/Pods-SSURank.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +74,8 @@
 				B0B6D41F251C3FEA008162C4 /* LaunchScreen.storyboard */,
 				B0B6D422251C3FEA008162C4 /* Info.plist */,
 				B0B6D41A251C3FE6008162C4 /* SSURank.xcdatamodeld */,
+				B0B6D515251C5C19008162C4 /* ListFetcher.swift */,
+				B0B6D518251C5D8C008162C4 /* ListFetchModel.swift */,
 			);
 			path = SSURank;
 			sourceTree = "<group>";
@@ -80,7 +86,6 @@
 				E9D3D0450EAA762D11983771 /* Pods-SSURank.debug.xcconfig */,
 				D3AE43A6B5A049757B600294 /* Pods-SSURank.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,8 +212,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0B6D416251C3FE6008162C4 /* ViewController.swift in Sources */,
+				B0B6D516251C5C19008162C4 /* ListFetcher.swift in Sources */,
 				B0B6D412251C3FE6008162C4 /* AppDelegate.swift in Sources */,
 				B0B6D41C251C3FE6008162C4 /* SSURank.xcdatamodeld in Sources */,
+				B0B6D519251C5D8C008162C4 /* ListFetchModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
